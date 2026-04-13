@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- START - external css -->
+    <link rel="stylesheet" href="normalise.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- END - external css -->
+    <!-- START - JavaScript -->
+    <script type="module" src="script.js"></script>
+    <!-- END - JavaScript-->
+</head>
+
+<body>
+    <div class="kanban-board">
+        <div id="open-column" class="kanban-column">
+            <ul>
+                <li>Open<span class="total-task">4</span><span class="add">+</span></li>
+                <li>Create Kanban Board</li>
+                <li>Fit the Design</li>
+                <li>Ability to Add Tasks</li>
+                <li>Make Tasks Renamable & deletable</li>
+                <li>+ New Task</li>
+            </ul>
+        </div>
+        <div  id="functionality-column" class="kanban-column">
+            <ul>
+                <li>Functionality<span class="total-task">3</span><span class="add">+</span></li>
+                <li>Make Tasks Movable (Up, Down)</li>
+                <li>Make Tasks Movable (prev &amp; next buttons)</li>
+                <li>Ability to add another column</li>
+                <li>+ New Task</li>
+            </ul>
+        </div>
+        <div id="styling-column" class="kanban-column">
+            <ul>
+                <li>Styling<span class="total-task">2</span><span class="add">+</span></li>
+                <li>Styling Change on Selection</li>
+                <li>Animate Hover or Movement</li>
+                <li>+ New Task</li>
+            </ul>
+        </div>
+        
+    </div>
+    <div id="state-style-section">
+        <div></div>
+        <div id="select-item-module">
+            <p id="select-header-label">Selected State Styling</p>
+            <div id="select-item">
+                <div id="select-item-item">
+                    <p>Selected Item</p>
+                </div>
+                <div>
+                    <div class="up-arrow">🠅</div>
+                    <div class="down-arrow">🠇</div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+</body>
+
+</html>
